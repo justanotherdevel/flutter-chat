@@ -6,6 +6,6 @@ Trying out flutter. A demo chat app
 
 The main screen.
 README will hopefully be updated as I continue working on it.
-![image] (Screenshots/ChatScreen.png)
-![image] (Screenshots/CallScreen.png)
-![image] (Screenshots/ContactScreen.png)
+![image](Screenshots/ChatScreen.png)
+![image](Screenshots/CallScreen.png)
+![image](Screenshots/ContactScreen.png)
