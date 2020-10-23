@@ -16,12 +16,18 @@ void main() {
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+  MyApp() {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.white,
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarColor: Colors.white,
+      systemNavigationBarDividerColor: Colors.white,
+      systemNavigationBarIconBrightness: Brightness.dark,
+    ));
+  }
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-      statusBarColor: Colors.transparent,
-      statusBarBrightness: Brightness.light,
-    ));
     return DefaultTabController(
       length: 4,
       child: MaterialApp(

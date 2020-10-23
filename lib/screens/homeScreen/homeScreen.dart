@@ -19,7 +19,6 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
-          brightness: Brightness.dark,
           title: Text("Messaging App"),
           elevation: 0.0,
           actions: <Widget>[
